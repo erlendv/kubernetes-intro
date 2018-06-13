@@ -5,7 +5,7 @@ const port = 5000;
 
 app.get('/', (request, response) => {
 	response.send(`Hello, I'm alive`);
-	logger.info('Responded to GET request on /')
+	logger.info('Respondeddd to GET request on /')
 });
 
 app.get('/api/me', (request, response) => {
